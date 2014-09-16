@@ -89,8 +89,9 @@ for(k in 1:length(place))
 	TidyData[,place[k]] <- as.numeric(TidyData[,place[k]])
 }
 
-count<-1
 
+#CALCULATING AVERAGE (MEAN) VALUE FOR EACH SUBJECT FOR HIS/HER EACH ACTIVITY AND SAMPLE STATUS(TRAINING or TEST)
+count<-1
 for(i in 1:30)
 {
 		calculating<-which(TidyData$ID_person_test==i & TidyData$Activity_monitored=="WALKING" & TidyData$Sample=="TRAINING")
