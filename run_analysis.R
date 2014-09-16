@@ -206,4 +206,4 @@ View(CleanDataSet)
 
 write.csv(CleanDataSet,file="D:\\Coursera\\Data Cleaning\\Course Project\\UCI HAR Dataset\\CleanDataSet.csv",row.names=FALSE)
 
-write.table(CleanDataSet,file="D:\\Coursera\\Data Cleaning\\Course Project\\UCI HAR Dataset\\CleanDataSettxt.txt",row.names=FALSE)
+write.table(CleanDataSet,file="D:\\Coursera\\Data Cleaning\\Course Project\\UCI HAR Dataset\\CleanDataSet.txt",row.names=FALSE)
