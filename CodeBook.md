@@ -1,21 +1,31 @@
 #**Getting and Cleaning Data**
 ##*Course project*
 
-###** *Variable names* **
+### *Variable names*
 Variable names are all the same except first 3 rows.
-** *1.* **  **ID_person_test**
-                    * This is ID number of the subject who was part of the conducted Tests
-                    * In the final data set, CleanDataSet.txt, data set was ordered according to ID number of testers
-** *2.* **  **Sample**
-                    * In this collumn is stored information if the subject was tested as part of * **test sample** *, or * **training sample** *
-** *3.* **  **Activity_monitored**
-                    * Data stored in this row describes measured (monitored) activity, one out of six which are:
-                            **1) *Walking* **
-                            **2) *Walking upstairs* **
-                            **3) *Walking downstairs* **
-                            **4) *Sitting* **
-                            **5) *Standing* **
-                            **6) *Laying* **
+
+###### **1. ID_person_test**
+* This is ID number of the subject who was part of the conducted Tests
+* In the final data set, CleanDataSet.txt, data set was ordered according to ID number of testers
+                    
+###### **2. Sample**
+* In this collumn is stored information if the subject was tested as part of **test sample**, or **training sample**
+                    
+###### **3. Activity_monitored**
+
+* Data stored in this row describes measured (monitored) activity, one out of six which are:
+                            **1) Walking **
+                            
+                            **2) Walking upstairs **
+                            
+                            **3) *Walking downstairs **
+                            
+                            **4) Sitting **
+                            
+                            **5) Standing **
+                            
+                            **6) Laying **
+    
     The rest variable names are as in the original "not-clean" data set, as follows:
     * "tBodyAcc-mean()-X", "tBodyAcc-mean()-Y", "tBodyAcc-mean()-Z"
     * "tGravityAcc-mean()-X", "tGravityAcc-mean()-Y", "tGravityAcc-mean()-Z"
@@ -33,7 +43,7 @@ Variable names are all the same except first 3 rows.
     * "fBodyAccMag-mean()", "fBodyAccMag-meanFreq()"
     * "fBodyBodyAccJerkMag-mean()", "fBodyBodyAccJerkMag-meanFreq()"
     * "fBodyBodyGyroMag-mean()", "fBodyBodyGyroMag-meanFreq()"
-    * "fBodyBodyGyroJerkMag-mean()", "fBodyBodyGyroJerkMag-meanFreq()"
+    * "fBodyBodyGyroJerkMag-mean()", "fBodyBodyGyroJerkMag-meanFreq()" **
 
 During Cleaning Data, operations done through run_analysis.R code are:
 *  Reading Data
