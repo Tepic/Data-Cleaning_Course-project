@@ -197,8 +197,13 @@ CleanDataSet<-CleanDataSet[which(CleanDataSet[,1]!="NA"),]
 CleanDataSet[,1]<-as.numeric(CleanDataSet[,1])
 CleanDataSet<-arrange(CleanDataSet,ID_person_test)
 
+for(i in 4:ncol(CleanDataSet))
+{
+	CleanDataSet[,i]<-as.numeric(CleanDataSet[,i])
+}
+
 View(CleanDataSet)
 
 write.csv(CleanDataSet,file="D:\\Coursera\\Data Cleaning\\Course Project\\UCI HAR Dataset\\CleanDataSet.csv",row.names=FALSE)
 
-write.table("D:\\Coursera\\Data Cleaning\\Course Project\\UCI HAR Dataset\\CleanDataSet.txt",row.names=FALSE
+write.table(CleanDataSet,file="D:\\Coursera\\Data Cleaning\\Course Project\\UCI HAR Dataset\\CleanDataSettxt.txt",row.names=FALSE)
