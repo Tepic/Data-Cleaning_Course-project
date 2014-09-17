@@ -58,4 +58,4 @@ During Cleaning Data, operations done through run_analysis.R code are:
 *  TidyData variable is almost the same as Dataset_extract, except TidyData consists only out of MEAN values for TRAINING and TEST samples
 *  Final step (2 long for loops in the code) is to extract values for each subject for each activity on average for TRAINING and TEST and storing it into the final variable ** *CleanDataSet* ** arranged according to ID number of tested person
 
-Final data is uploaded in the reposotory: Data-Cleaning_Course-project.
+Final data is uploaded in the reposotory Data-Cleaning_Course-project: CleanDataSet.csv and CleanDataSet.txt
