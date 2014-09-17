@@ -15,17 +15,17 @@ Variable names are all the same except first 3 rows.
 
 * Data stored in this row describes measured (monitored) activity, one out of six which are:
 
-**1. Walking**
+**1) Walking**
 
-**2. Walking upstairs**
+**2) Walking upstairs**
 
-**3. Walking downstairs**
+**3) Walking downstairs**
 
-**4. Sitting**
+**4) Sitting**
 
-**5. Standing**
+**5) Standing**
 
-**6. Laying**
+**6) Laying**
 
 The rest variable names are as in the original "not-clean" data set, as follows:
 
