@@ -15,17 +15,17 @@ Variable names are all the same except first 3 rows.
 
 * Data stored in this row describes measured (monitored) activity, one out of six which are:
 
-**1) Walking**
+**1. Walking**
 
-**2) Walking upstairs**
+**2. Walking upstairs**
 
-**3) Walking downstairs**
+**3. Walking downstairs**
 
-**4) Sitting**
+**4. Sitting**
 
-**5) Standing**
+**5. Standing**
 
-**6) Laying**
+**6. Laying**
 
 The rest variable names are as in the original "not-clean" data set, as follows:
 
@@ -58,4 +58,4 @@ During Cleaning Data, operations done through run_analysis.R code are:
 *  TidyData variable is almost the same as Dataset_extract, except TidyData consists only out of MEAN values for TRAINING and TEST samples
 *  Final step (2 long for loops in the code) is to extract values for each subject for each activity on average for TRAINING and TEST and storing it into the final variable ** *CleanDataSet* ** arranged according to ID number of tested person
 
-Final data is uploaded in the reposotory Data-Cleaning_Course-project: CleanDataSet.csv and CleanDataSet.txt
+Final data is uploaded in the reposotory *Data-Cleaning_Course-project*: **CleanDataSet.csv** and **CleanDataSet.txt**
